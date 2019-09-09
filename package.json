@@ -1,0 +1,30 @@
+{
+  "name": "gamming-of-net-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nohup node ./index.js &",
+    "dev": "set NODE_ENV=development&&nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "cookie-parser": "^1.4.4",
+    "crypto": "^1.0.1",
+    "douyu": "^0.1.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "http-proxy-middleware": "^0.19.1",
+    "mongodb": "^3.2.7",
+    "ws": "^7.1.2"
+  },
+  "devDependencies": {
+    "nohup": "^0.1.0"
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    错误页
+  </title>
+  <link rel="stylesheet" href="/css/login.css" />
+</head>
+
+<body>
+  <h1>
+    。。。发生错误
+  </h1>
+  <% if(message){%>
+      <%= message %>
+  <% } %>
+
+  <% if(code){%>
+      错误码：<%= code %>
+  <% } %>
+  <div>
+    <button id="return">返回</button>  
+  </div> 
+  <script>
+    document.getElementById("return").onclick = function(){
+      window.location.go(-1)
+    }
+  </script>  
+</body>
+
+</html>
