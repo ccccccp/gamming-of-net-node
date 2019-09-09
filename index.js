@@ -18,7 +18,6 @@ const secret = 'live.codediy.club'
 setConfig(app)
 
 
-
 app.use(logger)
 app.use(cookieParser(secret))
 
